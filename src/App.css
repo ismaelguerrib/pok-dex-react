@@ -1,22 +1,93 @@
 .App {
-  text-align: center;
+  background-color: red;
 }
 
-.App-logo {
-  height: 40vmin;
+.PokédexLogo {
+  width: 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Nav {
+  margin-left: 35%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.6em;
+}
+a:hover {
+  color: grey;
+}
+
+.List {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 120vh;
+  align-items: center;
+  padding-left: 10px;
+  margin: 50px auto;
+  background-color: #bad0df;
+  border-radius: 20px;
+  box-shadow: 0 14px 45px rgba(0, 0, 0, 0.22), 0 18px 45px rgba(0, 0, 0, 0.22);
+}
+
+.Item {
+  width: 40vh;
+  margin-top: 4em;
+  display: flex;
   color: white;
 }
+.Item:hover {
+  width: 40vh;
+  margin-top: 4em;
+  display: flex;
+  color: grey;
+}
 
-.App-link {
-  color: #09d3ac;
+/* .Item-header {
+  border-style: solid;
+  border-width: 0.1px;
+  border-radius: 40px;
+  color: white;
+  background-color: red;
+} */
+
+.Loader {
+  width: 120vh;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 5em;
+}
+
+.Viewone {
+  background-color: red;
+  height: 120vh;
+}
+.Viewone-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  height: 70vh;
+  background-color: #bad0df;
+  border-radius: 5%;
+  padding: 2%;
+}
+
+.Pokémon-id {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: WHITE;
+}
+
+.Pokémon-infos {
+  max-width: 40vh;
+  font-size: medium;
 }
